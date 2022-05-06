@@ -1,7 +1,7 @@
 document.getElementById("Personal_Care").checked = true
 
 const req = ()=>{
-    fetch(" http://localhost:4000/personal").then(res=>res.json()).then(res=>append(res)).catch(e=>console.log(e));
+    fetch("http://localhost:4000/personal").then(res=>res.json()).then(res=>append(res)).catch(e=>console.log(e));
 }
 req()
 
