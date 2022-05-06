@@ -1,0 +1,52 @@
+
+    {
+        "personal":[
+      
+          {"image_url" : "https://cdn01.pharmeasy.in/dam/products_otc/L31685/lakme-peach-milk-moisturizer-spf-24-pa-sunscreen-lotion-60-ml-2-1641789708.jpg",
+            "name" : "Lakme Peach Milk Moisturizer Spf 24 Pa",
+             "price" : 118.75,
+            "strikeofprice" : 125.25
+         },
+         { "image_url":"https://cdn01.pharmeasy.in/dam/products_otc/R63766/the-man-company-intimo-tea-tree-sea-buck-thorn-oil-intimate-wash-100-ml-2-1641792321.jpg",
+           "name":"The Man Company intimo Tea Tree ",
+           "price": 319,
+           "strikeofprice": 399.36
+         },
+         { "image_url":"https://cdn01.pharmeasy.in/dam/products_otc/U72333/dove-daily-shine-conditioner-80-ml-2-1641791195.jpg",
+           "name":"Palmers Stretch Marks Oil- 100ml",
+           "price":608 ,
+           "strikeofprice": 760.89
+         },
+         { "image_url":"https://cdn01.pharmeasy.in/dam/products_otc/Q47797/mcaffeine-cappuccino-coffee-face-mask-100gm-2-1641793570.jpg",
+           "name":"Mcaffeine Cappuccino Coffee",
+           "price": 546,
+           "strikeofprice": 575
+         },
+         { "image_url":"https://cdn01.pharmeasy.in/dam/products_otc/W63287/durex-condom-extra-ribbed-10s-pack-of-3-2-1646050401.jpg",
+           "name":"Durex Condom Ribbed pack",
+           "price": 444,
+           "strikeofprice": 684
+         },
+         { "image_url":"https://cdn01.pharmeasy.in/dam/products_otc/B88531/vaseline-intensive-care-aloe-fresh-body-lotion-100-ml-2-1641790128.jpg",
+           "name":"Vaseline Intensive Care Aloe Fresh",
+           "price": 98,
+           "strikeofprice": 105
+         },
+         { "image_url":"https://cdn01.pharmeasy.in/dam/products_otc/M11272/lakme-peach-milk-soft-creme-moisturizer-65-g-2-1641789733.jpg",
+           "name":"Lakme peach milk cream",
+           "price": 99,
+           "strikeofprice": 110
+         },
+         { "image_url":"https://cdn01.pharmeasy.in/dam/products_otc/N06809/vaseline-healthy-bright-complete-10-body-lotion-100-ml-6.1-1643273461.jpg",
+           "name":"Vaseline Bright Complete 10",
+           "price": 145,
+           "strikeofprice": 155
+         },
+         { "image_url":"https://cdn01.pharmeasy.in/dam/products_otc/Y80573/khadi-organique-activated-charcoal-peel-off-mask-100-gm-2-1643448509.jpg",
+           "name":"Khadi Organic Activated Charcoal",
+           "price": 252,
+           "strikeofprice": 252
+         }
+        ]
+      
+      }
