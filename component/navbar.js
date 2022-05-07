@@ -31,7 +31,7 @@ let navbar = () =>{
              <a href="ordermedicines.html">Order Medicines</a> 
              </div>
          <div class="let">
-             <a href="hcareProduct.html">Healthcare Products</a> 
+             <a href="healthcare.html">Healthcare Products</a> 
          </div>
          <div class="let">
              <a href="diagnose.html">Lab Tests</a>
