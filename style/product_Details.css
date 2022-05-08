@@ -1,0 +1,512 @@
+*{
+    font-family: open Sans, sans-serif;
+}
+/* <!-- _______________________________________________________________________________ --> */
+
+/* <!-- Top Navbar Start --> */
+header{
+    background-color: teal;
+    width: 101%;
+    height: 150px;
+    position: relative;
+    margin-top: -10px;
+    margin-left: -8px;
+}
+#header{
+    width: 100%;
+    display: flex;
+    background-size: cover;
+}
+#mainHeader{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    background-size: cover;
+}
+#mainHeader > img{
+    width: 150px;
+    height: 50px;
+    margin-left: 50px;
+}
+.code{
+    width: 800px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 600px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+}
+.code p{
+    width: 180px;
+    color: teal;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.code i{
+    color: rgb(136, 151, 162);
+    font-size: 16px;
+    margin-left: 18px;
+    cursor: pointer;
+    
+}
+.code div{
+    height: 20px;
+    margin-top: 13px;
+    margin-left: 26px;
+    border: 0.5px solid rgb(223, 227, 230);
+}
+.code input{
+    width: 575px;
+    height: 35px;
+    margin-top: -10px;
+    margin-left: -5px;
+    border: none;
+    color: rgb(13, 108, 103);
+}
+.code a > img{
+    padding-top: 11px;
+    padding-right: 9px;
+    width: 30px;
+    margin-left: 5px;
+}
+#mainHeader1{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+}
+#mainHeader1 a{
+    text-decoration: none;
+}
+.leftHeaderText{
+    margin-left: 19%;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    width: 500px;
+}
+.leftHeaderText div {
+    padding-right: 25px;
+}
+.rightHeaderText{
+    display: flex;
+    margin-left: 210px;
+    font-size: 15px;
+    padding-right: 40px;
+}
+.rightHeaderText img{
+    padding-right: 3px;
+    width: 30px;
+    height: 30px;
+}
+.rightHeaderText p{
+    padding-right: 20px;
+    color: white;
+    margin-top: 8px;
+}
+.User{
+    display: none;
+}
+
+/* <!-- Top Navbar End --> */
+/* <!-- _______________________________________________________________________________ --> */
+
+/* <!-- _______________________________________________________________________________ --> */
+/* <!-- Login Page Popup Start--> */
+
+.loginPage{
+    width: 100%;
+    height: 660%;
+    position: absolute;
+    margin-top: -130px;
+    /* Login Page Margin adjust  */
+    display: none;
+}
+.close{
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: rgb(16, 132, 126);
+    margin-left: 66.9%;
+    cursor: pointer;
+}
+.loginPage_Content{
+    height: 15%;
+    width: 420px;
+    background: white;
+    float: right;
+    margin-right: -8px;
+    margin-top: -80px;
+}
+.loginHeader{
+    width: 100%;
+    height: 120px;
+    margin-left: 0px;
+    background-color: rgb(16, 132, 126);
+}
+.loginLogo > img {
+    height: 45px;
+    align-self: center;
+    padding: 25px;
+    padding-top: 11%;
+    display: flex;
+    background-color: rgb(16, 132, 126);
+}
+.loginLogo1 > img {
+    width: 130px;
+    height: 70px;
+    margin-left: 250px;
+    margin-top: -70px;
+    float: left;
+}
+.loginText{
+    width: 62%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #525871;
+}
+#logMob > input{
+    width: 81%;
+    height: 40px;
+    font-size: 15px;
+   padding-left: 15px;
+    margin-left: 36px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(75, 74, 74);
+}
+.logContinue{
+    width: 85%;
+    padding: 10px 8px;
+    margin-top: 30px;
+    margin-left: 38px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 6px;
+    color: white;
+    background-color: teal;
+    margin-bottom: 15px;
+    border: none;
+}
+.logFooter{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(105, 97, 97);
+    width: 80%;
+    margin-left: 33px;
+}
+.logFooter  a{
+    color: teal;
+    font-size: 12px;
+    text-decoration: none;
+}
+.logContinue:hover{
+    background-color: rgba(0, 128, 128, 0.884);
+    cursor: pointer;
+}
+
+
+.otpflex {
+    max-width: 90%;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+  }
+  .otpflex > input {
+    width: 20%;
+    height: 2.5rem;
+    margin: 5%;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid rgb(136, 151, 162);
+  }
+  .resendflex {
+    max-width: 90%;
+    color: rgb(30, 139, 134);
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+  }
+/* <!-- Login Page Popup End--> */
+
+
+/* <!-- _______________________________________________________________________________ --> */
+
+
+/* <!-- _______________________________________________________________________________ --> */
+/* <!-- Product Details Start  --> */
+.divide {
+    display: flex;
+    /* margin-bottom: -280px; */
+}
+section {
+    position: relative;
+    width: 20%;
+    /* height: 100vh; */
+    margin-left: 270px;
+    display: flex;
+}
+section #slide {
+    width: 89%;
+    height: 227px;
+    margin-top: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+  
+.add_cart2 {
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+}
+.p10 {
+    margin-bottom: -10px;
+    margin-top: -7px;
+}
+.add_cart2 > button {
+    width: 60%;
+    height: 40px;
+    color: white;
+    background-color: teal;
+    border: none;
+    font-size: 15px;
+}
+.add_insite {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.add_insite > h2 {
+    margin-right: 5px;
+}
+.add_insite > p {
+    font-size: 14px;
+    margin-right: 5px;
+}
+.add_insite .p2 {
+    text-decoration: line-through;
+}
+.add_insite > h5 {
+    color: white;
+    background-image: url(https://assets.pharmeasy.in/web-assets/dist/6aa9e076.png);
+    height: 17px;
+    width: 64px;
+    font-size: 12px;
+    padding-top: 3px;
+}
+.add_cart2 > h6 {
+    margin-top: -20px;
+}
+.add_cart3 {
+    margin-left: 90px;
+    margin-top: 18px;
+    width: 350px;
+    height: 300px;
+}
+.add_cart3 > h5 {
+    font-size: 19px;
+}
+.add_cart3 > button {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background-color: teal;
+    border: none;
+    margin-top: -10px;
+}
+  
+
+
+
+
+
+
+/* <!-- Product Details End  --> */
+/* <!-- _______________________________________________________________________________ --> */
+
+
+
+
+
+
+/* <!-- _______________________________________________________________________________ --> */
+
+/* <!-- why You Choose Mysite Start  --> */
+
+#reason {
+    width: 100%;
+    /* margin: auto; */
+   
+}
+#reason_div {
+    width: 68%;
+    margin: auto;
+    display: flex;
+}
+#reason_div > div {
+    flex-basis: 30.3%;
+    /* margin: 1.5%; */
+    padding: 40px 24px;
+}
+#reason_div > div > p {
+    color: #8897a2;
+    line-height: 1.2;
+    max-width: 220px;
+    font-size: 15px;
+}
+
+/* <!-- why You Choose Mysite End  --> */
+/* <!-- _______________________________________________________________________________ --> */
+
+
+
+/* <!-- _______________________________________________________________________________ --> */
+
+/* <!-- App Link Start --> */
+hr{
+    width: 100%;
+}
+#mobilediv {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+#mobilediv .mobiledivimg img {
+    width: 200px;
+    height: 400px;
+    margin-right: 100px;
+    padding-right: 10px;
+}
+.apk {
+    width: 400px;
+}
+#text {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.25;
+    font-weight: 400;
+    color: #4f585e;
+    margin-left: 2.5%;
+}
+.apklogo {
+    display: flex;
+    margin-top: 30px;
+}
+.logo {
+    background-color: #4f585e;
+    color: white;
+    margin: 2.5%;
+    width: 40%;
+    height: 25px;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+.logo:hover {
+    background-color: rgb(75, 75, 75);
+}
+.logo > img {
+    width: 25px;
+    float: left;
+}
+.logo > p {
+    float: left;
+    font-size: 14px;
+    padding-top: 8px;
+    letter-spacing: -0.3px;
+    margin-left: 15px;
+    margin-top: 0;
+}
+
+/* <!-- App Link End --> */
+/* <!-- _______________________________________________________________________________ --> */
+
+
+
+
+
+/* <!-- _______________________________________________________________________________ --> */
+
+/* Fotter Part Start */
+#bottomFooter {
+    background-color: rgb(244, 247, 251);
+    width: 101%;
+    margin-left: -5px;
+    margin-right: -5px;
+    /* padding: 5% 5%; */
+    padding-left: 15%;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    padding-right: 15%;
+    box-sizing: border-box;
+    
+}
+    #bottomFooter_First {
+    display: flex;
+}
+    #footerDownList {
+    display: flex;
+    flex: 3;
+}
+    #footerDownList > div {
+    flex-basis: 50%;
+}
+    #footerDownList h4 {
+    padding-top: 10px;
+    font-weight: 700;
+}
+    #footerDownList p:hover {
+    /* color: rgb(16, 132, 126); */
+    cursor: pointer;
+}
+    #bottomFooter_First p {
+    color: rgb(79, 88, 94);
+    line-height: 1.1;
+    font-size: 15px;
+    font-weight: 400;
+}
+    #logo-follow{
+    display:flex;
+    gap: 20px;
+}
+    #logo-follow>.logo1{
+    color: #10847e;
+    font-size: 14px;
+}
+    #PartnerDiv {
+    display: flex;
+    flex-basis: auto;
+}
+    #payment_div h4{
+    color: dimgray;
+}
+    #endFooter {
+    padding-top: 4rem;
+    color: dimgray;
+    text-align: right;
+    margin-left: 10px;
+    font-size: 16px;
+    /* flex: 1; */
+}
+    span > img {
+    height: 25px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+
+/* Fotter Part End */
+/* <!-- _______________________________________________________________________________ --> */
