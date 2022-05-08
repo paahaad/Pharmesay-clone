@@ -1,0 +1,238 @@
+*{
+    font-family: open Sans, sans-serif;
+}
+/* <!-- Top Navbar Start --> */
+header{
+    background-color: teal;
+    width: 101%;
+    height: 150px;
+    position: relative;
+    margin-top: -10px;
+    margin-left: -8px;
+}
+#header{
+    width: 100%;
+    display: flex;
+    background-size: cover;
+}
+#mainHeader{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    background-size: cover;
+}
+#mainHeader > img{
+    width: 150px;
+    height: 50px;
+    margin-left: 50px;
+}
+.code{
+    width: 800px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 600px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+}
+.code p{
+    width: 180px;
+    color: teal;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.code i{
+    color: rgb(136, 151, 162);
+    font-size: 16px;
+    margin-left: 18px;
+    cursor: pointer;
+    
+}
+.code div{
+    height: 20px;
+    margin-top: 13px;
+    margin-left: 26px;
+    border: 0.5px solid rgb(223, 227, 230);
+}
+.code input{
+    width: 575px;
+    height: 35px;
+    margin-top: -10px;
+    margin-left: -5px;
+    border: none;
+    color: rgb(13, 108, 103);
+}
+.code a > img{
+    padding-top: 11px;
+    padding-right: 9px;
+    width: 30px;
+    margin-left: 5px;
+}
+#mainHeader1{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+}
+#mainHeader1 a{
+    text-decoration: none;
+}
+.leftHeaderText{
+    margin-left: 19%;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    width: 500px;
+}
+.leftHeaderText div {
+    padding-right: 25px;
+}
+.rightHeaderText{
+    display: flex;
+    margin-left: 210px;
+    font-size: 15px;
+    padding-right: 40px;
+}
+.rightHeaderText img{
+    padding-right: 3px;
+    width: 30px;
+    height: 30px;
+}
+.rightHeaderText p{
+    padding-right: 20px;
+    color: white;
+    margin-top: 8px;
+}
+.User{
+    display: none;
+}
+
+/* <!-- Top Navbar End --> */
+
+
+/* <!-- Login Page Popup Start--> */
+
+.loginPage{
+    width: 100%;
+    height: 660%;
+    position: absolute;
+    margin-top: -130px;
+    /* Login Page Margin adjust  */
+    display: none;
+}
+.close{
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: rgb(16, 132, 126);
+    margin-left: 66.9%;
+    cursor: pointer;
+}
+.loginPage_Content{
+    height: 15%;
+    width: 420px;
+    background: white;
+    float: right;
+    margin-right: -8px;
+    margin-top: -80px;
+}
+.loginHeader{
+    width: 100%;
+    height: 120px;
+    margin-left: 0px;
+    background-color: rgb(16, 132, 126);
+}
+.loginLogo > img {
+    height: 45px;
+    align-self: center;
+    padding: 25px;
+    padding-top: 11%;
+    display: flex;
+    background-color: rgb(16, 132, 126);
+}
+.loginLogo1 > img {
+    width: 130px;
+    height: 70px;
+    margin-left: 250px;
+    margin-top: -70px;
+    float: left;
+}
+.loginText{
+    width: 62%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #525871;
+}
+#logMob > input{
+    width: 81%;
+    height: 40px;
+    font-size: 15px;
+   padding-left: 15px;
+    margin-left: 36px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(75, 74, 74);
+}
+.logContinue{
+    width: 85%;
+    padding: 10px 8px;
+    margin-top: 30px;
+    margin-left: 38px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 6px;
+    color: white;
+    background-color: teal;
+    margin-bottom: 15px;
+    border: none;
+}
+.logFooter{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(105, 97, 97);
+    width: 80%;
+    margin-left: 33px;
+}
+.logFooter  a{
+    color: teal;
+    font-size: 12px;
+    text-decoration: none;
+}
+.logContinue:hover{
+    background-color: rgba(0, 128, 128, 0.884);
+    cursor: pointer;
+}
+
+
+.otpflex {
+    max-width: 90%;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+  }
+  .otpflex > input {
+    width: 20%;
+    height: 2.5rem;
+    margin: 5%;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid rgb(136, 151, 162);
+  }
+  .resendflex {
+    max-width: 90%;
+    color: rgb(30, 139, 134);
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+  }
+/* <!-- Login Page Popup End--> */

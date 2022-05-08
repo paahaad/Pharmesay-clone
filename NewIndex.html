@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PharmEasy: Online Pharmacy & Medical Store in India | 5M+ ... pharmeasy.</title>
+    <link rel="stylesheet" href="./style/NewIndex.css">
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+
+    <!-- Top Navbar Start -->
+    <header>
+        <div id="header">
+            <div id="mainHeader">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="Clogo" onclick="(location.href='NewIndex.html')">
+            </div>
+
+            <div class="code">
+                <p id="pinCode">Select Pincode <span><i class="fa-solid fa-caret-down"></i></span></p>
+                <div>
+                    <input type="text" class="Search" placeholder="Search for Medicines / Healthcare Products">
+                </div>
+                <a class="search" onclick=""><img src="https://www.pnglib.com/wp-content/uploads/2020/08/simple-grey-search-icon_5f34a64f04780-768x748.png" alt=""></a>
+            </div>
+        </div>
+        
+
+        <div id="mainHeader1">
+            <div class="leftHeaderText">
+                <div>
+                    <a href="" style="color: white" >Order Medicines</a>
+                </div>
+                <div>
+                    <a href="" style="color: white" >Healthcare Products</a>
+                </div>
+                <div>
+                    <a href="" style="color: white" >Lab Tests</a>
+                </div>
+                <div>
+                    <a href="" style="color: white" >RTPCR</a>
+                </div>
+                
+            </div>
+
+            <div class="rightHeaderText">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/275c07e1.svg" alt="">
+                <p><a href="" style="color: white" >Offers</a></p>
+
+                <img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt="">
+                <p id="logUser"><a href="#" style="color: white" id="useme">Login/Signup</a></p>
+                <p class="User" id="useruser">User</p>
+                <img src="https://assets.pharmeasy.in/web-assets/dist/21b0b5ba.svg" alt="">
+                <p><a href="" style="color: white">Cart </a></p>
+            </div>
+        </div>
+
+
+    </header>
+
+    <!-- Top Navbar End -->
+<!-- _______________________________________________________________________________ -->
+
+
+    <!-- Login Page Popup Start-->
+
+    <div class="loginPage"> 
+        <div class="close" onclick="clo()">
+            <p>x</p>
+        </div>
+
+        <div class="loginPage_Content">
+            <div class="loginHeader">
+                <div class="loginLogo">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="Logo">
+                </div>
+                <div class="loginLogo1">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/1fe1322a.svg" alt="Logo1">
+                </div>
+            </div>
+            <div class="loginText">
+                <p>Quick Login /Register</p>
+            </div>
+            <div id="logMob">
+                <input type="text" placeholder="Enter your Phone number" id="num">
+                <button class="logContinue" onclick="logContinue()">Continue</button>
+            </div>
+
+            <div class="logFooter">
+                <p>By clicking continue, you agree with our <span><a href="#">Privacy Policy</a></span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Page Popup End-->
+
+
+</body>
+</html>
+
+
+<!-- login script -->
+<script>
+
+     document
+     .getElementById("logUser")
+     .addEventListener("click", function () {
+          document.querySelector(".loginPage").style.display = "block"
+        })
+
+    function clo() {
+        document.querySelector(".loginPage").style.display = "none"
+    }
+
+
+
+    function logContinue() {
+    // console.log("Welcome TO Pharmeasy LOL");
+    let num = document.getElementById("num").value;
+    if (num.length < 10 || num.length > 10) {
+      alert("Enter a valid Mobile Number");
+      return;
+    }
+    let number = { num };
+    let arr = JSON.parse(localStorage.getItem("pharmuser"));
+    if (arr == null) {
+      arr = [];
+    } else {
+      arr = JSON.parse(localStorage.getItem("pharmuser"));
+    }
+  
+    arr.push(number);
+    localStorage.setItem("pharmuser", JSON.stringify(arr));
+  
+    let parent = document.getElementById("logMob");
+    parent.innerHTML = "";
+    var a = ran();
+    var b = ran();
+    var c = ran();
+    var d = ran();
+    alert(`Your OTP is ${a} ${b} ${c} ${d}`);
+    console.log(a, b, c, d);
+    parent.innerHTML = `
+      <h4 style="padding-left:20px"> Enter OTP has been sent to ${num}</h4>
+      <div class="otpflex">
+      <input type="text" id="otp1" />
+      <input type="text" id="otp2" />
+      <input type="text" id="otp3" />
+      <input type="text" id="otp4"/>
+      </div>
+      <div class="resendflex">
+      <p onclick="numc()">Change Number</p>
+      <p onclick="resend(${a},${b},${c},${d})">Resend OTP</p>
+      </div>
+      <button class="logContinue" onclick="logged(${a},${b},${c},${d})">Continue</button>
+      `;
+  }
+  
+  function numc() {
+    let parent = document.getElementById("logMob");
+    parent.innerHTML = `<input type="text" placeholder="Enter your Phone number" id="num">
+                    <button class="logContinue" onclick="">Continue</button>`;
+  }
+  
+  function resend(a, b, c, d) {
+    alert(`Your OTP is ${a} ${b} ${c} ${d}`);
+  }
+  
+  function ran() {
+    return Math.floor(Math.random() * 10);
+  }
+  
+  var loog = false;
+  function logged(a, b, c, d) {
+    let o1 = document.getElementById("otp1").value;
+    let o2 = document.getElementById("otp2").value;
+    let o3 = document.getElementById("otp3").value;
+    let o4 = document.getElementById("otp4").value;
+  
+    console.log(o1, o2, o3, o4);
+    if (o1 == a && o2 == b && o3 == c && o4 == d) {
+      loog = true;
+  
+      document.querySelector(".loginPage").style.display = "none";
+      console.log(loog);
+      let ruser = document.getElementById("useruser");
+      ruser.style.display = "block";
+      let logruser = document.getElementById("logUser");
+      logruser.style.display = "none";
+  
+      let arr = JSON.parse(localStorage.getItem("pharmuser"));
+      let session = JSON.parse(localStorage.getItem("session"));
+      session = [];
+      let us = arr[arr.length - 1];
+      session.push(us);
+      localStorage.setItem("session", JSON.stringify(session));
+      console.log(session);
+    } else {
+      alert("Enter Valid Number and OTP sent");
+    }
+  }
+  
+  
+  
+  let session = JSON.parse(localStorage.getItem("session"));
+  let ruser = document.getElementById("useruser");
+  ruser.style.display = "none";
+  if (session.length > 0) {
+    let ruser = document.getElementById("useruser");
+    ruser.style.display = "block";
+  
+    let logruser = document.getElementById("logUser");
+    logruser.style.display = "none";
+  }
+  console.log(session[0]);
+  
+  if (session[0].user != null) {
+    console.log(ruser);
+    ruser.innerText = session[0].user;
+  }
+  
+</script>
