@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Payment Options</title>
-    <link rel="stylesheet" href="payment.css" />
+    <link rel="stylesheet" href="./style/payment.css" />
   </head>
   <body>
     <div class="payment_Head">
@@ -182,6 +182,7 @@
 
 <script>
   let arr = JSON.parse(localStorage.getItem("pharmcart"));
+  console.log(arr);  
   let sum = 0;
   for (var i = 0; i < arr.length; i++) {
     sum += arr[i].pri * Number(arr[i].qty);
@@ -198,7 +199,7 @@
           <div id="det">
             <div class="ord">
               <p>Cart value</p>
-              <p>₹${Math.round(sum)}</p>
+              <p>₹${Math.round(arr)}</p>
             </div>
             <div class="ord">
               <p>Delivery Charge</p>
@@ -207,7 +208,7 @@
             <hr />
             <div class="ord">
               <h3>Amount to be paid</h3>
-              <h3>₹${Math.round(sum) + del}</h3>
+              <h3>₹${Math.round(arr) + del}</h3>
             </div>
           </div>`;
 </script>

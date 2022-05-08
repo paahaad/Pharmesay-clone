@@ -175,6 +175,7 @@ function remove(elem,i){
 document.getElementById("mrp").innerText=totalmrp.toFixed(2)
 document.querySelector(".finalprice").innerText=totalprice.toFixed(2)
 document.getElementById("final").innerText=totalprice.toFixed(2);
+localStorage.setItem("pharmcart",totalprice.toFixed(2))
 
 console.log(totalprice.toFixed(2),totalmrp.toFixed(2))
 let day=new Date().getDate()
@@ -187,9 +188,9 @@ let month=new Date().getMonth()+1;
 //   console.log(data);
 
   
-localStorage.setItem("cartdata",JSON.stringify(data));
+// localStorage.setItem("cartdata",JSON.stringify(data));
 
 document.querySelector(".addaddress").addEventListener("click",()=>{
 
-window.location.href="checkout.html"
+window.location.href="payment.html"
 })
