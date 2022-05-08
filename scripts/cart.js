@@ -1,6 +1,6 @@
 // let data=JSON.parse(localStorage.getItem('cartdata'));
-import {navbar} from './component/navbar.js'
-document.getElementById('navbar').innerHTML=navbar();
+// import {navbar} from './component/navbar.js'
+// document.getElementById('navbar').innerHTML=navbar();
 // import {footer_start} from './component/footer.js'
 // document.getElementById('footer').innerHTML=footer_start();
 
@@ -140,15 +140,15 @@ document.getElementById('quantity').addEventListener("click",()=>{
   console.log(selected);
   let changedprice=discounted*(+(selected))
   document.getElementById("price").innerText=changedprice.toFixed(2);
-  document.querySelector(".finalprice").innerText=(changedprice+totalprice).toFixed(2);
-  document.querySelector("#final").innerText=(changedprice+totalprice).toFixed(2);
-  document.querySelector(".noOfItem").innerText=cart.length+(+selected);
-  localStorage.setItem("quantity",cart.length+(+selected))
+  document.querySelector(".finalprice").innerText=(changedprice).toFixed(2);
+  document.querySelector("#final").innerText=(changedprice).toFixed(2);
+  document.querySelector(".noOfItem").innerText=selected;
+  localStorage.setItem("quantity",cart.length)
   document.getElementById("del").innerText=+mrp*(+selected);
   if(selected===""){
     localStorage.setItem('quantity',selected);
     document.getElementById("price").innerText=discounted.toFixed(2);
-    document.querySelector(".noOfItem").innerText=cart.length;
+    document.querySelector(".noOfItem").innerText = selected;
     // window.location.reload()
   }
   
@@ -191,5 +191,5 @@ localStorage.setItem("cartdata",JSON.stringify(data));
 
 document.querySelector(".addaddress").addEventListener("click",()=>{
 
-// window.location.href=""
+window.location.href="checkout.html"
 })
