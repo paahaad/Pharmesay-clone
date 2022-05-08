@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    font-family: sans-serif;
+}
+
+#slider_brand{
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    
+}
+.container_brand{
+    width:100%;
+    margin: auto;
+}
+.subcontainer{
+    width:98%;
+    margin: auto;
+}
+.controller{
+    display: flex;
+    justify-content: space-between;
+}
+.feature{
+    color:#4f585e;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#controls{
+    color:white;
+    font-size: 1rem;
+}
+.previous,.next{
+    padding: 2px;
+    width:30px;
+    cursor: pointer;
+    border-radius: 50;
+    outline: none;
+    transition: 0.7s ease-in-out;
+    border:none;
+    background-color: #ffffff;
+    margin-right: 10px;
+   
+}
+
+.previous>.fa-solid , .next>.fa-solid{
+    color:gray;
+    
+}
+.previous :hover, .next :hover{
+    border:3px solid teal;
+}
+
+.slide-img{
+ width:84%;
+ height:250px;
+ border:1px solid white;
+ background-position: center;
+ background-size: cover;
+ cursor: pointer;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ transition: 0.5s;
+ border-radius: 10px;
+}
+
+.slide-img :hover{
+ box-shadow: 0 0 0 250px rgba(0 0 0 0.9);
+}
+
+.slide-img a{
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1rem;
+    opacity: 0;
+    color: white;
+}
+.img-1{
+    background-image: url(https://cms-contents.pharmeasy.in/carousel_item/fd17e547883-Horlicks_web.jpg?dim=146x0&dpr=1&q=100);
+}
+.img-2{
+    background-image: url(https://cms-contents.pharmeasy.in/carousel_item/c572570b5ce-Liveasy.jpg?dim=146x0&dpr=1&q=100);
+}
+.img-3{
+    background-image: url(https://cms-contents.pharmeasy.in/carousel_item/9d406684215-Featured-brand_web_Plum.jpg?dim=146x0&dpr=1&q=100);
+}
+.img-4{
+    background-image: url(https://cms-contents.pharmeasy.in/carousel_item/c72feb4bd7a-web_Huggies.jpg?dim=146x0&dpr=1&q=100);
+}
+.img-5{
+  background-image: url(https://cms-contents.pharmeasy.in/carousel_item/487644e2f83-Nivea_web.jpg?dim=146x0&dpr=1&q=100);
+}
+.img-6{
+  background-image: url(https://cms-contents.pharmeasy.in/carousel_item/2d987111a15-Featured-banner_Revital.png?dim=146x0&dpr=1&q=100);
+}
+.img-7{
+  background-image: url(https://cms-contents.pharmeasy.in/carousel_item/ac01791d842-Featured-banner_Volini.png?dim=146x0&dpr=1&q=100);
+}
+.img-8{
+  background-image: url(https://cms-contents.pharmeasy.in/carousel_item/7fdd90400a1-Featured-banner-Hansaplast-web.png?dim=146x0&dpr=1&q=100);
+}
+.img-9{
+    background-image: url(https://cms-contents.pharmeasy.in/carousel_item/bf633425db6-web_johnson.jpg?dim=146x0&dpr=1&q=100);
+}
+.img-10{
+  background-image: url(https://cms-contents.pharmeasy.in/carousel_item/0845572266f-Everherb.jpg?dim=146x0&dpr=1&q=100);
+}
+.img-11{
+  background-image: url(https://cms-contents.pharmeasy.in/carousel_item/f8493a13be2-web_Pigeon.jpg?dim=146x0&dpr=1&q=100);
+}
+.img-12{
+  background-image: url(https://cms-contents.pharmeasy.in/carousel_item/6beabc4b6ed-web_Accusure.jpg?dim=146x0&dpr=1&q=100);
+}
+.img-13{
+  background-image: url(https://cms-contents.pharmeasy.in/carousel_item/10bd64d3c0f-web_harpic.jpg?dim=146x0&dpr=1&q=100);
+}
+
+
+.slide-img :hover a{
+    opacity: 1;
+    transform: scale(1);
+}
+
+@media (max-width:1600px){
+    .container{
+        width:100%;
+    }
+}
