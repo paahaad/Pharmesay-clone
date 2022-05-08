@@ -247,14 +247,17 @@ header{
 /* <!-- _______________________________________________________________________________ --> */
 /* <!-- Product Details Start  --> */
 .divide {
+    /* border: 1px solid red; */
     display: flex;
+    height: 400px;
     /* margin-bottom: -280px; */
 }
 section {
+    /* border: 1px solid blue; */
     position: relative;
     width: 20%;
     /* height: 100vh; */
-    margin-left: 270px;
+    margin-left: 200px;
     display: flex;
 }
 section #slide {
@@ -266,13 +269,17 @@ section #slide {
 }
   
 .add_cart2 {
+    /* border: 1px solid green; */
     width: 300px;
     height: 300px;
     margin-top: 25px;
+
 }
 .p10 {
-    margin-bottom: -10px;
-    margin-top: -7px;
+    /* border: 1px solid green; */
+    
+    margin-bottom: 2px;
+    margin-top: 7px;
 }
 .add_cart2 > button {
     width: 60%;
@@ -281,23 +288,32 @@ section #slide {
     background-color: teal;
     border: none;
     font-size: 15px;
+    margin-top: 20px;
 }
 .add_insite {
+    margin-bottom: 25px;
     display: flex;
     text-align: center;
     align-items: center;
 }
 .add_insite > h2 {
+    /* border: 1px solid green; */
+    height: fit-content;
+    margin-top: 20px;
     margin-right: 5px;
 }
 .add_insite > p {
+    margin-top: 20px;
+    margin-left: 15px;
     font-size: 14px;
     margin-right: 5px;
 }
 .add_insite .p2 {
+    margin-left: 5px;
     text-decoration: line-through;
 }
 .add_insite > h5 {
+    margin-top: 20px;
     color: white;
     background-image: url(https://assets.pharmeasy.in/web-assets/dist/6aa9e076.png);
     height: 17px;
@@ -324,7 +340,7 @@ section #slide {
     color: white;
     background-color: teal;
     border: none;
-    margin-top: -10px;
+    margin-top: 10px;
 }
   
 

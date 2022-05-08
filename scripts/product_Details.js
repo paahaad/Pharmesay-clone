@@ -4,10 +4,17 @@ var mrp = Math.floor(pri / (1 - offer));
 
 console.log(mrp, offer, pri);
 
-let prod = JSON.parse(localStorage.getItem("showproduct"));
-console.log(prod);
+let prod = JSON.parse(localStorage.getItem("cartdata"));
+let array = prod;
+console.log("aray",array)
+prod = prod[0]
+
+console.log( "abhishek",prod.name);
+
 
 let img = document.getElementById("slide");
+img.style.width = "50%"
+img.style.height = "300px"
 
 let name = document.getElementById("tabname");
 let company = document.getElementById("tabcompany");
@@ -20,14 +27,15 @@ let off = document.getElementById("taboff");
 
 
 //----------------Get Data From Local Storage------------
-img.src = prod.imag;
+// let  = JSON.parse(localStorage.getItem("cartdata"))
+img.src = prod.image_url;
 
-name.textContent = prod.taga;
-company.textContent = prod.company + " PVT LTD";
+name.innerText = prod.name;
+// company.textContent = prod.company + " PVT LTD";
 
-actual.textContent = `₹${prod.pri}*`;
+actual.textContent = `₹${prod.price}*`;
 orig.textContent = `₹${prod.mrp}`;
-off.textContent = `${Math.round(prod.off * 100)}% OFF`;
+off.textContent = `${Math.round(prod.discount)}% OFF`;
 
 if (prod.stock < 0.25) {
   stock.textContent = "Currently Unavailable, back in stock SOON";
@@ -46,7 +54,8 @@ if (prod.stock < 0.25) {
 }
 
 function cartme() {
-  console.log(prod);
+  console.log( "cartdata",prod);
+  document.getElementById('showcart').innerText = array.length + "item in cart";
   let arr = JSON.parse(localStorage.getItem("pharmcart"));
   if (arr == null) {
     arr = [];
@@ -78,13 +87,13 @@ function cartme() {
   localStorage.setItem("pharmcart", JSON.stringify(arr));
 }
 
-let arr = JSON.parse(localStorage.getItem("pharmcart"));
-console.log(arr.length);
-let lang = 0;
-if (arr == null || arr.length == 0) {
-  lang = 0;
-} else {
-  lang = arr.length;
-}
-let sh = document.getElementById("showcart");
-sh.textContent = `${lang} Items in cart`;
+// let arr = JSON.parse(localStorage.getItem("pharmcart"));
+// console.log(arr.length);
+// let lang = 0;
+// if (arr == null || arr.length == 0) {
+//   lang = 0;
+// } else {
+//   lang = arr.length;
+// }
+// let sh = document.getElementById("showcart");
+// sh.textContent = `${lang} Items in cart`;

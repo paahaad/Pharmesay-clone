@@ -28,7 +28,7 @@ let navbar = () =>{
  <div id="lowerNav">
      <div class="leftnav">
          <div class="let">
-             <a href="ordermedicines.html">Order Medicines</a> 
+             <a href="order.html">Order Medicines</a> 
              </div>
          <div class="let">
              <a href="healthcare.html">Healthcare Products</a> 
@@ -48,7 +48,7 @@ let navbar = () =>{
          </div>
          <div class="symbol1">
              <img class="on" src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt=""/>
-             <h4 class="off"><a href="login.html">Login/Signup</a></h4>
+             <h4 class="off"><a href="NewIndex.html">User</a></h4>
          </div>
          <div class="symbol1">
              <img class="on" src="https://assets.pharmeasy.in/web-assets/dist/21b0b5ba.svg" alt=""/>

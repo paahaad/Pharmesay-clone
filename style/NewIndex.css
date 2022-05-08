@@ -3,10 +3,17 @@
 }
 /* <!-- Top Navbar Start --> */
 header{
-    background-color: teal;
+    background: #10847e;
+    margin: auto;
+    overflow: hidden;
+    position: sticky;
+    top:0;
+    z-index: 2;
+    /* position: sticky; */
+    /* background-color: teal; */
     width: 101%;
     height: 150px;
-    position: relative;
+    /* position: relative; */
     margin-top: -10px;
     margin-left: -8px;
 }
@@ -135,6 +142,10 @@ header{
     cursor: pointer;
 }
 .loginPage_Content{
+    /* border: 1px solid red; */
+
+    position: relative;
+    z-index: 4;
     height: 15%;
     width: 420px;
     background: white;

@@ -3,6 +3,8 @@
   }
   
   .contain{
+      /* border: 1px solid blue; */
+      z-index: -1;
       margin:0 auto;
       width:100%;
       height:300px;
@@ -10,6 +12,7 @@
       overflow: hidden;
       
     }
+
     #slides{
       display:flex;
       height:100%;
@@ -45,3 +48,8 @@
     #prev-btn:focus{
     outline: none;
     }
+    .carousel{
+      /* border: 1px solid red; */
+      z-index: -1;
+    }
+    

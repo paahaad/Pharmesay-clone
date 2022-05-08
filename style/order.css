@@ -7,36 +7,46 @@
     
 
 #a1>div{
+    margin-bottom: 15px;
     display: flex;
     margin-left: 80px;
     margin-top: 20px;
 }
 h1{
+    margin-bottom: 20px;
   margin-left: -100px;
 }
 #container{
-    width: 86%;
+    /* border: 1px solid red; */
+    width: 90%;
     height: 330px;
 /* border: 1px solid red; */
     margin: auto;
     display: flex;
+
 }
 #container>#a2{
   width:57%;
   height: 170px;
-   /* border: 1px solid red; */
   margin: auto;
-  margin-top: -2px;;
-  margin-left: -5px;
+  padding: 25px;
+
+  margin-top: 20px;;
+  margin-left: 5px;
   border-radius: 5px;
   background-color: teal;
 }
 #a5{
+    padding-top: 15px;
+    height: 150px;
     border: 1px solid teal;
-    border-radius: 5px;
-     
+    border-radius: 5px; 
+}
+.fa-book-medical{
+    margin-top: 1px;
 }
 #a5>p{
+    margin-top: 10px;
     font-family: "Open Sans", sans-serif;
     padding-left: 50px;
     color:rgb(88, 88, 88);
@@ -48,15 +58,16 @@ h1{
      
 }
 .a6>h6{
+
     width:77%;
-    height:30px;
+    height:50px;
    background-color: teal;
     color: white;
     border-radius: 5px;
     padding: 10px;
     font-size: 20px;
      margin-left:40px;
-     margin-top: -5px;
+     margin-top: 15px;
 
     
 
