@@ -27,7 +27,7 @@
 
   }
   #carouselExampleIndicators{
-      border: 1px solid red;
+      /* border: 1px solid red; */
       z-index: -1;
       width: 55%;
       margin: auto;
