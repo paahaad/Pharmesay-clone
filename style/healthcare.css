@@ -27,7 +27,7 @@
 
   }
   #carouselExampleIndicators{
-      /* border: 1px solid red; */
+      border: 1px solid red;
       z-index: -1;
       width: 55%;
       margin: auto;
@@ -139,35 +139,4 @@
       }
       .a_tag{
           text-decoration: none;
-      }
-      @media screen and (max-width: 992px){
-        body{
-          border: 1px solid green;
-        }
-        .container{
-          border: 1px solid blue;
-          margin-top: 50px;
-          display: grid;
-          grid-template-columns: repeat(1,1fr);
-          grid-template-rows: auto;
-          gap: 5px;
-          width: 74%;
-          height: fit-content;
-          
-      }
-      .container div{
-        margin: auto;
-      }
-      #upper_nav{
-        width: 80%;
-      }
-      .leftnav{
-        border: 1px solid red;
-        width: fit-content;
-      }
-      .leftnav a{
-        border: 1px solid blue;
-        margin: 0px 0px 0px 10px;
-        
-      }
       }
