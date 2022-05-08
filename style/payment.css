@@ -1,0 +1,125 @@
+* {
+    font-family: Open Sans, sans-serif !important;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.payment_Head {
+    width: 100%;
+    height: 80px;
+    background-color: teal;
+    display: flex;
+    color: honeydew;
+}
+.payment_Head > img {
+    width: 160px;
+    height: 45px;
+    margin-left: 13rem;
+    margin-top: 19px;
+    color: white;
+}
+.payment_Head > p {
+    margin-left: 600px;
+    margin-top: 25px;
+    font-size: 16px;
+}
+#payment_div {
+    display: flex;
+    width: 1000px;
+    margin: 1rem 13rem;
+    gap: 100px;
+}
+#left {
+    width: 500px;
+    color: rgb(79, 88, 94);
+}
+.left1 {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    /* text-align: center; */
+}
+.pay1 > img {
+    width: 40px;
+}
+.part {
+    width: 600px;
+    padding-top: 25px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.part h4{
+    font-size: 13px;
+    font-weight: lighter;
+    color: gray;
+    margin-top: -8px;
+}
+.pay {
+    display: flex;
+    width: 250px;
+}
+.pay > img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.all > img {
+    width: 35px;
+    margin-top: -15px;
+}
+.all {
+    margin-left: 48px;
+    margin-top: -20x;
+}
+
+h5 {
+    margin-left: 55px;
+    margin-top: -10px;
+    font-size: 13px;
+    color: gray;
+    font-weight: lighter;
+}
+
+#right {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+p:nth-child(1) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: rgb(79, 88, 94);
+}
+/* p:nth-child(n + 4) {
+    margin-left: 12px;
+    font-weight: 700;
+} */
+/* p > span:nth-child(n + 1) {
+    color: rgb(36, 33, 33);
+    margin-left: 100px;
+} */
+#place {
+    width: 200px;
+    height: 50px;
+    background-color: teal;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 6px;
+    border: none;
+}
+#det {
+    width: 280px;
+}
+.ord {
+    display: flex;
+    justify-content: space-between;
+}
+.new {
+    float: right;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+  

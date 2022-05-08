@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Options</title>
+    <link rel="stylesheet" href="payment.css" />
+  </head>
+  <body>
+    <div class="payment_Head">
+      <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png"/>
+      <p>100% secure payment</p>
+    </div>
+
+
+    <div id="payment_div">
+      <div id="left">
+        <h3>Offers</h3>
+
+        <div class="left1">
+            <div class="pay1">
+              <img src="https://cdn.pharmeasy.in/payments/wallet_icons/paytm.png"/>
+            </div>
+            <div class="part">
+              <p>Paytm Wallet | Postpaid</p>
+              <h4> Get upto rs 750 cashback on Amazon pay transactions on Pharmeasy.</h4>
+            </div>
+            <div>
+              <input type="radio" name="money"/>
+            </div>
+          </div>
+  
+          <hr />
+
+
+        <div class="left1">
+          <div class="pay1">
+            <img src="https://cdn.pharmeasy.in/payments/amazonpay_new.png" />
+          </div>
+          <div class="part">
+            <p>Amazon Pay</p>
+            <h4>
+                Get up to Rs.500 cashback on a minimum transaction of Rs.100 via Amazon Pay. Offer applicable once per user
+            </h4>
+          </div>
+          <div>
+            <input type="radio" name="money" />
+          </div>
+        </div>
+
+        <hr />
+
+        
+
+
+        <div class="left1">
+          <div class="pay1">
+            <img src="https://cdn.pharmeasy.in/payments/wallet_icons/phonepe.png" />
+          </div>
+          <div class="part">
+            <p>PhonePe</p>
+            <h4>
+                Get a scratch card and win up to Rs.750 cashback on a minimum transaction of Rs.500 via PhonePe wallet only. Offer applicable once per user
+            </h4>
+          </div>
+          <div>
+            <input type="radio" name="money" />
+          </div>
+        </div>
+        <hr />
+
+
+        <div class="left1">
+            <div class="pay1">
+              <img src="https://cdn.pharmeasy.in/payments/wallet_icons/mobikwik.png"/>
+            </div>
+            <div class="part">
+              <p>Mobikwik</p>
+              <h4>Get up to Rs.500 cashback on a minimum transaction of Rs.999 via Mobikwik Wallet. Use code MBK500 on Mobikwik.</h4>
+            </div>
+            <div>
+              <input type="radio" name="money"/>
+            </div>
+          </div>
+  
+          <hr />
+        
+        <!-- OTHER OPTION -->
+        <h4>Other Options</h4>
+        <div class="pay">
+          <img src="https://cdn.pharmeasy.in/payments/upi.png" />
+          <p>UPI</p>
+        </div>
+        <div class="all">
+          <img src="https://consumer-app-images.pharmeasy.in/payment-icons/gpay.png"/>
+          <img src="https://consumer-app-images.pharmeasy.in/payment-icons/bhim.png"/>
+          <img src="https://consumer-app-images.pharmeasy.in/payment-icons/paytmUpi.png"/>
+          <img src="https://consumer-app-images.pharmeasy.in/payment-icons/phonepeUpi.png"/>
+        </div>
+        <hr />
+        <div class="pay">
+          <img src="https://cdn.pharmeasy.in/payments/wallet.png" />
+          <p>Wallets</p>
+        </div>
+        <div class="all">
+          <img src="https://consumer-app-images.pharmeasy.in/payment-icons/amazonpay.png" />
+          <img src="https://consumer-app-images.pharmeasy.in/payment-icons/paytm.png"/>
+          <img src="https://consumer-app-images.pharmeasy.in/payment-icons/freecharge-wallet.png"/>
+          <img src="https://consumer-app-images.pharmeasy.in/payment-icons/phonepeWallet.png"/>
+        </div>
+        <hr />
+        <div class="pay">
+          <img src="https://cdn.pharmeasy.in/payments/card.png" />
+          <p>Credits/Debit Card</p>
+        </div>
+        <h5>
+            Get flat Rs.150 discount on a minimum transaction of 
+            Rs.1500 on Jupiter. Valid once/user/card
+            <br>
+            Get an additional Rs.150 instant discount on a transaction 
+            of Rs.1500 or above on HDFC Bank Debit and Credit cards. Applicable 
+            once per user.
+            
+            <br>
+            Get flat Rs.150 discount on a minimum transaction of 
+            Rs.1500 on OneCard. Valid once/user/card
+        </h5>
+        <div class="all">
+          <img src="https://consumer-app-images.pharmeasy.in/payment-icons/visa.png"/>
+          <img src="https://consumer-app-images.pharmeasy.in/payment-icons/mastercard-logo.png" />
+          <img src="https://consumer-app-images.pharmeasy.in/payment-icons/rupay.png"/>
+          <img src="https://consumer-app-images.pharmeasy.in/payment-icons/maestro-logo.png"/>
+          <img src="https://consumer-app-images.pharmeasy.in/payment-icons/dinerCard.png" />
+        </div>
+        <hr />
+        <div class="pay">
+          <img src="https://cdn.pharmeasy.in/payments/netbanking.png" />
+          <p>Net Banking</p>
+        </div>
+        <h5>We support over 100 banks</h5>
+        <hr />
+
+        <div class="pay">
+          <img src="https://consumer-app-images.pharmeasy.in/payment-icons/cod.png" />
+          <p>COD</p>
+          <input type="radio"  class="new" name="money" />
+        </div>
+        <h5>Pay via Cash/UPI at the time of delivery</h5>
+        <hr />
+        <button id="place" name="money" onclick="(location.href='payment_success.html')"> Place Order </button>
+      </div>
+
+
+
+      <div id="right">
+        <div class="charge" id="last">
+          <h3>Price Breakdown</h3>
+          <div id="det">
+            <div class="ord">
+              <p>Cart value</p>
+              <p>₹0</p>
+            </div>
+            <div class="ord">
+              <p>Delivery Charge</p>
+              <p>₹0</p>
+            </div>
+            <hr />
+            <div class="ord">
+              <h3>Amount to be paid</h3>
+              <h3>₹0</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+<script>
+  let arr = JSON.parse(localStorage.getItem("pharmcart"));
+  let sum = 0;
+  for (var i = 0; i < arr.length; i++) {
+    sum += arr[i].pri * Number(arr[i].qty);
+    console.log(sum, arr[i].pri, Number(arr[i].qty));
+  }
+  let del = 0;
+  if (sum > 500) {
+    del = 0;
+  } else {
+    del = 50;
+  }
+  let div = document.getElementById("last");
+  div.innerHTML = `<p>Price Breakdown</p>
+          <div id="det">
+            <div class="ord">
+              <p>Cart value</p>
+              <p>₹${Math.round(sum)}</p>
+            </div>
+            <div class="ord">
+              <p>Delivery Charge</p>
+              <p>${del}</p>
+            </div>
+            <hr />
+            <div class="ord">
+              <h3>Amount to be paid</h3>
+              <h3>₹${Math.round(sum) + del}</h3>
+            </div>
+          </div>`;
+</script>
+
