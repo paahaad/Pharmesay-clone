@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="./style/cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+<link rel="stylesheet" href="./style/navbar.css">
+<link rel="stylesheet" href="./style/footer.css">
+    <!-- JavaScript Bundle with Popper -->
+  </head>
+  <body>
+    <nav id="navbar"></nav>
+    <div id="whole">
+      <div class="3fr">
+        <div id="countofitem">
+          <div id="countbar">
+            <span class="noOfItem">0</span>
+            <span class="items" >Item In Cart</span>
+          </div>
+          <div class="lightfont">price are indictative</div>
+        </div>
+        <div id="addeditems">
+          <!-- <div id="s-img">
+            <div class="logoimg">
+              <img
+                src="https://cdn01.pharmeasy.in/dam/products/159115/shelcal-500mg-strip-of-15-tablets-2-1641531946.jpg?dim=60x60&dpr=1&q=100"
+                alt=""
+              />
+            </div>
+          </div>
+
+          
+          <div id="s-text">
+            <div class="toprow">
+              <div id="cartitemname">Shrecal 500mg Strip of 15 tablets</div>
+              <div id="dltbtn">
+                <img
+                  src="https://assets.pharmeasy.in/web-assets/dist/2fb50086.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div id="comapany" class="lightfont">
+              By torrent Pharmaceutical ltd.
+            </div>
+
+
+
+            <div class="qty_price">
+              <div class="qty">
+                <span>Qty</span>
+                <select name="qty" id="quantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                </select>
+              </div>
+              <div id="price-section">
+                <div id="discount">
+                  <span class="off">20</span>% Off
+                  <span> &#8377;<del class="lightfont">119</del> </span>
+                </div>
+                <div id="price" style="text-align: right">
+                  <span>&#8377;</span>49.99
+                </div>
+              </div>
+            </div>
+            <div class="delivery">
+              <span class="lightfont">Delivery</span>
+              <span class="minday">7may </span> -
+              <span class="maxday"> 10may </span>
+            </div>
+          </div> -->
+        </div>
+        <div class="textt">Customers who bought above items also bought</div>
+
+      <!--slider-->
+        <div class="carousel" data-flickity>
+         
+         
+            <a href="#" class="carousel-cell">
+              <div class="card" >
+                <div class="div-img">
+                  <div class="offf">20<span>% Off</span></div>
+                  <img
+                    src="https://cdn01.pharmeasy.in/dam/products_otc/255390/digene-gel-acidity-gas-relief-200ml-mint-flavour-1-1651304380.jpg?dim=224x0&dpr=1&q=100",
+
+                    alt="livogen"
+                  />
+                </div>
+                <p>Digene Gel Acidity & Gas Relief - 200ml Mint Flavour</p>
+                <p class="lightfont">100ml per bottle</p>
+                <p class="price"><span>MRP :</span><del class="lightfont">111.32</del></p>
+                <p class="price">&#8377;48</p>
+                <button class="addtocart" >Add to cart</button>
+              </div>
+            </a>
+           
+           
+            <a href="#" class="carousel-cell">
+              <div class="card" >
+                <div class="div-img">
+                  <div class="offf">20<span>% Off</span></div>
+                  <img
+                    src="https://cdn01.pharmeasy.in/dam/products_otc/I32380/livogen-z-captab-15s-2-1648187597.jpg?dim=240x0&dpr=1&q=100",
+
+                    alt="livogen"
+                  />
+                </div>
+                <p>Digene Gel Acidity & Gas Relief - 200ml Mint Flavour</p>
+                <p class="lightfont">100ml per bottle</p>
+                <p class="price"><span>MRP :</span><del class="lightfont">111.32</del></p>
+                <p class="price">&#8377;48</p>
+                <button class="addtocart" >Add to cart</button>
+              </div>
+            </a>
+            <a href="#" class="carousel-cell">
+              <div class="card" >
+                <div class="div-img">
+                  <div class="offf">20<span>% Off</span></div>
+                  <img
+                    src="https://cdn01.pharmeasy.in/dam/products/I09432/neurobion-forte-tablet-30s-1-1641537319.jpg?dim=240x0&dpr=1&q=100",
+
+
+                    alt="livogen"
+                  />
+                </div>
+                <p>Liveasy Wellness Calcium, Magnesium, Vitamin D3 </p>
+                <p class="lightfont">100ml per bottle</p>
+                <p class="price"><span>MRP :</span><del class="lightfont">291.32</del></p>
+                <p class="price">&#8377;245</p>
+                <button class="addtocart" >Add to cart</button>
+              </div>
+            </a>
+            <a href="#" class="carousel-cell">
+              <div class="card" >
+                <div class="div-img">
+                  <div class="offf">20<span>% Off</span></div>
+                  <img
+                    src="https://cdn01.pharmeasy.in/dam/products_otc/255390/digene-gel-acidity-gas-relief-200ml-mint-flavour-1-1651304380.jpg?dim=224x0&dpr=1&q=100",
+
+                    alt="livogen"
+                  />
+                </div>
+                <p>Digene Gel Acidity & Gas Relief - 200ml Mint Flavour</p>
+                <p class="lightfont">100ml per bottle</p>
+                <p class="price"><span>MRP :</span><del class="lightfont">111.32</del></p>
+                <p class="price">&#8377;48</p>
+                <button class="addtocart" >Add to cart</button>
+              </div>
+            </a>
+            <a href="#" class="carousel-cell">
+              <div class="card" >
+                <div class="div-img">
+                  <div class="offf">20<span>% Off</span></div>
+                  <img
+                    src="https://cdn01.pharmeasy.in/dam/products_otc/255390/digene-gel-acidity-gas-relief-200ml-mint-flavour-1-1651304380.jpg?dim=224x0&dpr=1&q=100",
+
+                    alt="livogen"
+                  />
+                </div>
+                <p>Digene Gel Acidity & Gas Relief - 200ml Mint Flavour</p>
+                <p class="lightfont">100ml per bottle</p>
+                <p class="price"><span>MRP :</span><del class="lightfont">111.32</del></p>
+                <p class="price">&#8377;48</p>
+                <button class="addtocart" >Add to cart</button>
+              </div>
+            </a>
+      </div>
+      
+      <div class="additonalnote">
+        <h2>Additional Notes</h2>
+        <input type="textarea" placeholder="Enter any additional information regarding your order">
+      </div>
+      <div class="tnc">
+        <ul>
+          <li>A licensed pharmacy would be delivering your order basis availability of product & fastest delivery.  <a href="#">Details</a></li>
+          <li>Prices are indicative and may change after billing</li>
+          <li>PharmEasy is a technology platform to connect sellers and buyers and is not involved in sales of any product. Offer for sale on the products and services are provided/sold by the sellers only. For detail read <a href="#">Terms and Conditions</a></li>  </li>
+        </ul>
+      </div>
+      </div>
+      <div id="2fr">
+        <div class="coupon"><span><img src="https://assets.pharmeasy.in/web-assets/dist/90a09c2f.svg" alt=""></span> &nbsp;  Apply Coupon/View Offers</div>
+        <div class="addaddress">
+         <h4>Add Delivery Address</h4> 
+        </div>
+        <div class="freedeliveryoffer"><span>
+          <img src="https://cdn.pharmeasy.in/cms/delivery_image.png" style="width:50%; height:50%; " alt="">
+        </span><p> Free delivery with cart value above ₹500</p></div>
+
+
+        <div class="ordersummery">
+          <h4>Order Summery</h4>
+        </div>
+
+<!-- total cart value -->
+
+
+        <div class="cartvalue">
+          <p class="lightfont">Cart Value</p>
+<p class="total"><del class="total_mrp lightfont" >&#8377;<span id="mrp"></span>   </del><span class=total_price"">&#8377;<span class="finalprice" ></span></span></p>
+        </div>
+        <hr style="width: 100%;">
+
+<div class="amountToPaid">
+  <p> Amount To Be Paid</p>
+  <p class="total_price">&#8377;<span id="final"></span> </p>
+</div>
+
+        <div class="cartoffer">
+          <img src="./images/cartoffer.png" alt="">
+        </div>
+    </div>
+    
+
+
+
+<!-- footer -->
+
+    <footer id="footer_start">
+
+    </footer>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+<script src="./scripts/cart.js" type="module"></script>
+<!-- <script src="./scripts/footer.js" type="module"></script> -->
+    <script>
+        
+
+
+
+      let maindiv=document.querySelector(".carousel")
+      
+      
+      function store(element){
+        localStorage.setItem("cartdata",JSON.stringify(element))
+      }
+  
+
+
+
+
+    
+    </script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  </body>
+ 
+</html>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
