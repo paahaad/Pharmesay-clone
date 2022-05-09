@@ -13,7 +13,11 @@
 ## 🛠 Languages Used
 Javascript(ES6), HTML, CSS...
 ________________________________________________________
+# Blog Link:
 
+https://medium.com/@ankesh11yadav/construct-week-group-project-2022-pharmacy-project-masai-school-670a5b2c8cfa
+
+_________________________________________________
 # Group Members:
 Abhishek Nandan Verma
 Ankesh Yadav
