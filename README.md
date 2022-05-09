@@ -33,14 +33,15 @@ ____________________________________________
 # Login Page
 ![imag login 2](https://user-images.githubusercontent.com/92791586/167413939-479ba43e-2c40-4162-bc0a-85919dec98a7.PNG)
 # Main Home Page
-![image main home page 3](https://user-images.githubusercontent.com/92791586/167413983-f3d519f8-a417-411d-8bf1-b872d6a5f57c.PNG)![image 6 rtpcr](https://user- 
+![image main home page 3](https://user-images.githubusercontent.com/92791586/167413983-f3d519f8-a417-411d-8bf1-b872d6a5f57c.PNG)  
 # Order Page
+
 # Healthcare Page
 ![iamge 5 health care](https://user-images.githubusercontent.com/92791586/167414121-8e0315a6-440b-49fc-98f6-c8a1ed421279.PNG)
 # Healthcare Product Page
 ![health care ke bad](https://user-images.githubusercontent.com/92791586/167414172-88587af5-1db4-4f9c-bb6b-cf7b90723248.PNG)
 # Rtpcr Test
-![image 6 rtpcr](https://user-images.githubusercontent.com/92791586/167414236-cf066d93-bb6e-4dd1-9343-44fd99cbca97.PNG)m/92791586/167414059-b2147ae6-0ded-46d9-8748-01854bd462d8.PNG)
+![image 6 rtpcr](https://user-images.githubusercontent.com/92791586/167414236-cf066d93-bb6e-4dd1-9343-44fd99cbca97.PNG) 
 
 # Cart Page
 # Payment Page
