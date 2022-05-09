@@ -40,13 +40,13 @@ ____________________________________________
 ![iamge 5 health care](https://user-images.githubusercontent.com/92791586/167414121-8e0315a6-440b-49fc-98f6-c8a1ed421279.PNG)
 # 6.Healthcare Product Page
 ![health care ke bad](https://user-images.githubusercontent.com/92791586/167414172-88587af5-1db4-4f9c-bb6b-cf7b90723248.PNG)
-# 7.Rtpcr Test
+# 7.RTPCR Test
 ![image 6 rtpcr](https://user-images.githubusercontent.com/92791586/167414236-cf066d93-bb6e-4dd1-9343-44fd99cbca97.PNG) 
 # 8.Cart Page
 ![cart page](https://user-images.githubusercontent.com/92791586/167417260-2746b722-5650-4b78-b8a6-b013526c1ac8.PNG)
 # 9.Payment Page
 ![payment 1](https://user-images.githubusercontent.com/92791586/167414332-badeb805-ce5e-4a7f-9735-34092aaf45b6.PNG)
-ng cart page.PNG…]()
+ 
 ![payement 2](https://user-images.githubusercontent.com/92791586/167414353-55f98b6f-d91d-457d-935a-0d3f3b637c7b.PNG)
 
 Thank you.
