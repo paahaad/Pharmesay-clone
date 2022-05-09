@@ -37,7 +37,7 @@ let navbar = () =>{
              <a href="diagnose.html">Lab Tests</a>
          </div>
          <div class="let">
-              <a href="diagnose.html">RTPCR</a>
+              <a href="rtpct.html">RTPCR</a>
          </div> 
      </div>
          
