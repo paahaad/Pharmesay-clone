@@ -19,12 +19,12 @@ https://medium.com/@ankesh11yadav/construct-week-group-project-2022-pharmacy-pro
 
 _________________________________________________
 # Group Members:
-Abhishek Nandan Verma
-Ankesh Yadav
-Ankita Singh
-Manish Kumar
-Pervat Singh
-Saurav Behera
+Abhishek Nandan Verma,
+Ankesh Yadav,
+Ankita Singh,
+Manish Kumar,
+Pervat Singh,
+Saurav Behera.
 ________________________________
 
 # PharmEasy Project:
